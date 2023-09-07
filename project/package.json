@@ -1,0 +1,31 @@
+{
+  "name": "gpt-dynamic-functions",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "npx tsc",
+    "watch": "npx tsc -w",
+    "main": "npx ts-node src/main.ts"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "detective": "^5.2.1",
+    "detective-es6": "^4.0.1",
+    "dotenv-safe": "^8.2.0",
+    "is-builtin-module": "^3.2.1",
+    "openai": "^4.2.0",
+    "ora": "^7.0.1",
+    "readline-sync": "^1.4.10",
+    "terminal-link": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/dotenv-safe": "^8.1.2",
+    "ts-node": "^10.9.1"
+  }
+}
